@@ -23,4 +23,31 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+  overflow: hidden;
+}
+
+.app-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background: #f0f0f0; /* Light gray background for the outer area */
+}
+
+@media (prefers-color-scheme: dark) {
+  .app-wrapper {
+    background: #000000;
+  }
+}
+
+.app-container {
+  height: 100vh;
+  width: 100%;
+  max-width: calc(100vh * 9 / 16);
+  background: var(--background);
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: auto;
+  box-shadow: 0 0 40px rgba(0,0,0,0.1);
 }

@@ -1,20 +1,20 @@
 {
-  "featured": {
-    "title": "ITALIAN ARMORED CAR HEIST",
-    "subtitle": "Masked Thugs Ambush Armored Truck in Italy",
-    "description": "Rear Blown, AK-47 Spray, 2 Suspects Apprehended",
-    "image": "/images/gta3_armored_car_heist_1770812883998.png"
-  },
-  "secondary": [
-    {
-      "title": "SPANISH STRIKE",
-      "description": "Railroad Workers on Strike\nDemanding Safety Reforms",
-      "image": "/images/gta3_strike_protest_1770812906655.png"
+    "featured": {
+        "title": "ITALIAN ARMORED CAR HEIST",
+        "subtitle": "Masked Thugs Ambush Armored Truck in Italy",
+        "description": "Rear Blown, AK-47 Spray, 2 Suspects Apprehended",
+        "image": ""
     },
-    {
-      "title": "US-CANADA BRIDGE DISPUTE",
-      "description": "Trump Threatens to Block Bridge\nDemands Half Ownership",
-      "image": "/images/gta3_bridge_dispute_low_poly_1770812928389.png"
-    }
-  ]
+    "secondary": [
+        {
+            "title": "SPANISH STRIKE",
+            "description": "Railroad Workers on Strike\nDemanding Safety Reforms",
+            "image": ""
+        },
+        {
+            "title": "US-CANADA BRIDGE DISPUTE",
+            "description": "Trump Threatens to Block Bridge\nDemands Half Ownership",
+            "image": ""
+        }
+    ]
 }

@@ -33,9 +33,7 @@ export default function NewsPage() {
         <div className="min-h-screen bg-white text-black font-sans pb-10">
             {/* GTA 3 Style Header (Light Theme) */}
             <header className="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-md z-50 px-4 py-2 flex items-center justify-between border-b-2 border-black">
-                <div className="w-8 h-8 relative">
-                    <Image src="/images/gta3_wanted_star_icon_1770812945055.png" alt="Star" width={32} height={32} className="invert" />
-                </div>
+                <div className="w-8 h-8 bg-black/5 rounded-full" />
                 <div className="text-center">
                     <h1 className="text-lg font-black text-black italic tracking-tighter uppercase" style={{ textShadow: '1px 1px 0px rgba(0,0,0,0.1)' }}>
                         UP DAILY NEWS
@@ -46,9 +44,7 @@ export default function NewsPage() {
                     <button className="text-black/40">
                         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8" /><path d="m21 21-4.3-4.3" /></svg>
                     </button>
-                    <div className="w-8 h-8 relative">
-                        <Image src="/images/gta3_wanted_star_icon_1770812945055.png" alt="Star" width={32} height={32} className="invert" />
-                    </div>
+                    <div className="w-8 h-8 bg-black/5 rounded-full" />
                 </div>
             </header>
 
@@ -62,13 +58,7 @@ export default function NewsPage() {
                         <p className="text-xs font-bold text-black/80 uppercase">{newsData.featured.subtitle}</p>
                         <p className="text-[10px] text-black/40 font-mono italic leading-tight">{newsData.featured.description}</p>
                     </div>
-                    <div className="relative aspect-[16/9] w-full border-y-2 border-black">
-                        <Image
-                            src={newsData.featured.image}
-                            alt={newsData.featured.title}
-                            fill
-                            className="object-cover"
-                        />
+                    <div className="relative aspect-[16/9] w-full border-y-2 border-black bg-white">
                         <div className="absolute bottom-2 left-2 flex gap-1">
                             <div className="w-8 h-0.5 bg-blue-600"></div>
                             <div className="w-4 h-0.5 bg-red-600"></div>
@@ -84,13 +74,7 @@ export default function NewsPage() {
                                 <h3 className="text-[11px] font-black italic text-black uppercase tracking-tight leading-none">{item.title}</h3>
                                 <p className="text-[8px] text-black/50 font-bold uppercase leading-tight mt-1">{item.description}</p>
                             </div>
-                            <div className="relative aspect-square w-full mt-auto border-t-2 border-black">
-                                <Image
-                                    src={item.image}
-                                    alt={item.title}
-                                    fill
-                                    className="object-cover transition-all duration-300"
-                                />
+                            <div className="relative aspect-square w-full mt-auto border-t-2 border-black bg-white">
                             </div>
                         </div>
                     ))}
@@ -99,7 +83,7 @@ export default function NewsPage() {
                 {/* Detailed News Section */}
                 <div className="bg-black text-white p-3 flex items-center justify-between border-2 border-black shadow-[3px_3px_0px_rgba(0,0,0,0.1)]">
                     <div className="flex items-center gap-3">
-                        <Image src="/images/gta3_wanted_star_icon_1770812945055.png" alt="Mini" width={20} height={20} />
+                        <div className="w-5 h-5 bg-white/20 rounded-full" />
                         <span className="text-[9px] font-black text-white italic uppercase tracking-wider">EGG OF THE DAY</span>
                         <span className="text-xs font-bold ml-2 text-white italic">DETAILED DOSSIER 👇</span>
                     </div>
